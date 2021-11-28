@@ -5,6 +5,7 @@
     "lib": [
       "es2018"
     ],
+    "outDir": "dist/",
     "declaration": true,
     "strict": true,
     "noImplicitAny": true,
@@ -21,10 +22,14 @@
     "strictPropertyInitialization": false,
     "typeRoots": [
       "./node_modules/@types"
-    ]
+    ],
+    "resolveJsonModule": true
   },
+  "include": [
+    "src/**/*.ts"
+  ],
   "exclude": [
-    "node_modules",
-    "cdk.out"
+    "cdk.out",
+    "outputs.json"
   ]
 }
