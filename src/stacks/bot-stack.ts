@@ -7,7 +7,7 @@ import {DiscordBotConstruct} from '../constructs/DiscordBotConstruct';
 /**
  * Creates a sample Discord bot endpoint that can be used.
  */
-export class BotStack extends Stack {
+export class DiscordPhotoBotStack extends Stack {
   /**
    * The constructor for building the stack.
    * @param {Construct} scope The Construct scope to create the stack in.
